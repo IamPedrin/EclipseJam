@@ -60,9 +60,9 @@ public class AudioManager : MonoBehaviour
         sfxSource.volume = volume;
     }
 
-    public AudioSource GetSFXAudioSource(string name)
+    public AudioSource GetMusicAudioSource(string name)
     {
-        Sound s = Array.Find(sfxSounds, x => x.soundName == name);
+        Sound s = Array.Find(musicSounds, x => x.soundName == name);
 
         if (s == null)
         {
