@@ -38,7 +38,7 @@ public class PlayerAttack : MonoBehaviour
                 timer = 0;
                 attacking = false;
 
-                //attackArea.SetActive(attacking);
+                 attackArea.SetActive(attacking);
                  attackAreaVertical.SetActive(attacking);
 
             }

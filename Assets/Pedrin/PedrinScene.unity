@@ -605,6 +605,11 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!4 &966677520 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7674152639278175631, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
+  m_PrefabInstance: {fileID: 1311753816}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1311753816
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1154,14 +1159,14 @@ PrefabInstance:
     - target: {fileID: 4454555618983112057, guid: def48fdfa5c16cb448330b45ff0e1643, type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 966677520}
     - target: {fileID: 6701071556641111508, guid: def48fdfa5c16cb448330b45ff0e1643, type: 3}
       propertyPath: m_Name
       value: Inimigo
       objectReference: {fileID: 0}
     - target: {fileID: 6701071556641111508, guid: def48fdfa5c16cb448330b45ff0e1643, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9141159641878628405, guid: def48fdfa5c16cb448330b45ff0e1643, type: 3}
       propertyPath: m_LocalPosition.x
