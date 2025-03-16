@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
     public Rigidbody2D rb;
+    Animator animator;
     bool isFacingRight = true;
 
     [Header("Movement")]
@@ -19,7 +20,7 @@ public class Player : MonoBehaviour
     public Transform groundCheckPos;
     public Vector2 groundCheckSize = new Vector2(0.5f, 0.05f);
     public LayerMask groundLayer;
-    bool isGrounded;
+    [SerializeField]bool isGrounded;
 
     [Header("Gravity")]
     public float baseGravity = 2f;
@@ -41,12 +42,20 @@ public class Player : MonoBehaviour
     float wallJumpTimer;
     public Vector2 wallJumpPower = new Vector2(5f, 10f);
 
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     void Update()
     {
         GroundCheck();
         Gravity();
         ProcessWallSlide();
         ProcessWallJump();
+
+        animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
+        animator.SetFloat("yVelocity", (rb.linearVelocity.y));
 
         if (!isWallJumping)
         {
@@ -71,6 +80,7 @@ public class Player : MonoBehaviour
     public void Move(InputAction.CallbackContext context)
     {
         horizontalMovement = context.ReadValue<Vector2>().x;
+
     }
 
     public void Jump(InputAction.CallbackContext context)
@@ -124,12 +134,14 @@ public class Player : MonoBehaviour
     {
         if (!isGrounded && WallCheck() && horizontalMovement != 0)
         {
+            animator.SetBool("isWallhanging", true);
             isWallSliding = true;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Max(rb.linearVelocity.y, -wallSlideSpeed));
         }
         else
         {
             isWallSliding = false;
+            animator.SetBool("isWallhanging", false);
         }
     }
 
