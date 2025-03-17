@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool shouldJump;
+    private bool isFacingRight = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -22,13 +23,16 @@ public class Enemy : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+       
         isGrounded = Physics2D.Raycast(transform.position, Vector2.down, 1f, groundLayer);
 
         //Player direção
         float direction = Mathf.Sign(player.position.x - transform.position.x);
-
         //Deteccao se player esta acima
         bool isPlayerAbove = Physics2D.Raycast(transform.position, Vector2.up, 3f, 1 << player.gameObject.layer);
+
+        if (rb.linearVelocityX <= 0 && isFacingRight) flip();
+        else if (rb.linearVelocityX > 0 && !isFacingRight) flip();
 
         if (isGrounded)
         {
@@ -67,5 +71,10 @@ public class Enemy : MonoBehaviour
 
             rb.AddForce(new Vector2(jumpDirection.x, jumpForce), ForceMode2D.Impulse);
         }
+    }
+    private void flip()
+    {
+        isFacingRight = !isFacingRight;
+        transform.Rotate(0f, 180f, 0f);
     }
 }

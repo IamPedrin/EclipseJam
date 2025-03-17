@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,12 +115,12 @@ TextureImporter:
       name: Oni[1]-Sheet_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 13
-        width: 30
-        height: 32
+        x: 12
+        y: 14
+        width: 28
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -134,37 +134,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Oni[1]-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 12
-        width: 12
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a97832d7ff46837e0800000000000000
-      internalID: -1785566203773483110
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Oni[1]-Sheet_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 11
-        width: 22
-        height: 34
+        x: 67
+        y: 12
+        width: 28
+        height: 33
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +159,12 @@ TextureImporter:
       name: Oni[1]-Sheet_3
       rect:
         serializedVersion: 2
-        x: 121
-        y: 11
-        width: 30
-        height: 32
+        x: 122
+        y: 12
+        width: 28
+        height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +181,12 @@ TextureImporter:
       name: Oni[1]-Sheet_4
       rect:
         serializedVersion: 2
-        x: 176
-        y: 13
-        width: 30
-        height: 30
+        x: 177
+        y: 14
+        width: 28
+        height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,7 +203,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3a0d0c1571cd085439dd6e7a10c0f88f
     internalID: 0
     vertices: []
     indices: 
