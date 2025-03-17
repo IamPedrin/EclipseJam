@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: 38944b72d65c6cd4b9d472abc64cb17b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6667284625643592161
+    second: shinobi atacando cima-Sheet_0
+  - first:
+      213: -5184155381501685747
+    second: shinobi atacando cima-Sheet_1
+  - first:
+      213: -2495147236372844128
+    second: shinobi atacando cima-Sheet_2
+  - first:
+      213: 8200513734273417857
+    second: shinobi atacando cima-Sheet_3
+  - first:
+      213: -5364864423955061119
+    second: shinobi atacando cima-Sheet_4
+  - first:
+      213: 8959619023603294942
+    second: shinobi atacando cima-Sheet_5
+  - first:
+      213: 8657177633325965137
+    second: shinobi atacando cima-Sheet_6
+  - first:
+      213: -11669365097495813
+    second: shinobi atacando cima-Sheet_7
+  - first:
+      213: -6303368148690675775
+    second: shinobi atacando cima-Sheet_8
+  - first:
+      213: 4943973000248234053
+    second: shinobi atacando cima-Sheet_9
+  - first:
+      213: -5641050861527180971
+    second: shinobi atacando cima-Sheet_10
+  - first:
+      213: -5454325069531737098
+    second: shinobi atacando cima-Sheet_11
+  - first:
+      213: -9152523400074097609
+    second: shinobi atacando cima-Sheet_12
+  - first:
+      213: 7026313032873834569
+    second: shinobi atacando cima-Sheet_13
+  - first:
+      213: 6333186465036257673
+    second: shinobi atacando cima-Sheet_14
+  - first:
+      213: 3432996681476521491
+    second: shinobi atacando cima-Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182441b0bc31ec170800000000000000
+      internalID: 8200513734273417857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 41
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186270e0b3c2c85b0800000000000000
+      internalID: -5364864423955061119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2e4b82806f65c70800000000000000
+      internalID: 8959619023603294942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7d7c0c010f588a0800000000000000
+      internalID: -6303368148690675775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 0
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5401beadf358c9440800000000000000
+      internalID: 4943973000248234053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559d2c60126f6b1b0800000000000000
+      internalID: -5641050861527180971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f39d0d5f385e44b0800000000000000
+      internalID: -5454325069531737098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 0
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c0224b574bbf080800000000000000
+      internalID: -9152523400074097609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9487425f97a728160800000000000000
+      internalID: 7026313032873834569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shinobi atacando cima-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 0
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9894cc8098ff3e750800000000000000
+      internalID: 6333186465036257673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bd4c9591ecebc5845abad81f0583b14d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shinobi atacando cima-Sheet_0: 6667284625643592161
+      shinobi atacando cima-Sheet_1: -5184155381501685747
+      shinobi atacando cima-Sheet_10: -5641050861527180971
+      shinobi atacando cima-Sheet_11: -5454325069531737098
+      shinobi atacando cima-Sheet_12: -9152523400074097609
+      shinobi atacando cima-Sheet_13: 7026313032873834569
+      shinobi atacando cima-Sheet_14: 6333186465036257673
+      shinobi atacando cima-Sheet_15: 3432996681476521491
+      shinobi atacando cima-Sheet_2: -2495147236372844128
+      shinobi atacando cima-Sheet_3: 8200513734273417857
+      shinobi atacando cima-Sheet_4: -5364864423955061119
+      shinobi atacando cima-Sheet_5: 8959619023603294942
+      shinobi atacando cima-Sheet_6: 8657177633325965137
+      shinobi atacando cima-Sheet_7: -11669365097495813
+      shinobi atacando cima-Sheet_8: -6303368148690675775
+      shinobi atacando cima-Sheet_9: 4943973000248234053
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

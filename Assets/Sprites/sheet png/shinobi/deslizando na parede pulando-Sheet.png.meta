@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: b4285c6b68850f74d98017cf448849d0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 157227320683255172
+    second: deslizando na parede pulando-Sheet_0
+  - first:
+      213: 6665517114264057325
+    second: deslizando na parede pulando-Sheet_1
+  - first:
+      213: -2190207087641036714
+    second: deslizando na parede pulando-Sheet_2
+  - first:
+      213: -9093042719814293163
+    second: deslizando na parede pulando-Sheet_3
+  - first:
+      213: -3501765770332683509
+    second: deslizando na parede pulando-Sheet_4
+  - first:
+      213: -8018150795177675799
+    second: deslizando na parede pulando-Sheet_5
+  - first:
+      213: -3073304771018459911
+    second: deslizando na parede pulando-Sheet_6
+  - first:
+      213: -1002397731657485558
+    second: deslizando na parede pulando-Sheet_7
+  - first:
+      213: 4936935767592876936
+    second: deslizando na parede pulando-Sheet_8
+  - first:
+      213: 3783882496314553057
+    second: deslizando na parede pulando-Sheet_9
+  - first:
+      213: 6323562911079734579
+    second: deslizando na parede pulando-Sheet_10
+  - first:
+      213: 5093695917136511024
+    second: deslizando na parede pulando-Sheet_11
+  - first:
+      213: -6898392001448662646
+    second: deslizando na parede pulando-Sheet_12
+  - first:
+      213: -6694046871598957431
+    second: deslizando na parede pulando-Sheet_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 35
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485df464a659e2200800000000000000
+      internalID: 157227320683255172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2
+        width: 27
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5feffff7ca08c50800000000000000
+      internalID: 6665517114264057325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 2
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658fc9c0242da91e0800000000000000
+      internalID: -2190207087641036714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 2
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5596406c2d50fc180800000000000000
+      internalID: -9093042719814293163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 2
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03c2b4c59a376fc0800000000000000
+      internalID: -3501765770332683509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 2
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e33be1755ec9b090800000000000000
+      internalID: -8018150795177675799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03f5e0f294c612f0800000000000000
+      internalID: -1002397731657485558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deslizando na parede pulando-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 32
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03087c6f27170b640800000000000000
+      internalID: 5093695917136511024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 902e5cb123576ae41955178db84b34ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      deslizando na parede pulando-Sheet_0: 157227320683255172
+      deslizando na parede pulando-Sheet_1: 6665517114264057325
+      deslizando na parede pulando-Sheet_10: 6323562911079734579
+      deslizando na parede pulando-Sheet_11: 5093695917136511024
+      deslizando na parede pulando-Sheet_12: -6898392001448662646
+      deslizando na parede pulando-Sheet_13: -6694046871598957431
+      deslizando na parede pulando-Sheet_2: -2190207087641036714
+      deslizando na parede pulando-Sheet_3: -9093042719814293163
+      deslizando na parede pulando-Sheet_4: -3501765770332683509
+      deslizando na parede pulando-Sheet_5: -8018150795177675799
+      deslizando na parede pulando-Sheet_6: -3073304771018459911
+      deslizando na parede pulando-Sheet_7: -1002397731657485558
+      deslizando na parede pulando-Sheet_8: 4936935767592876936
+      deslizando na parede pulando-Sheet_9: 3783882496314553057
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

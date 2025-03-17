@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+
 
 public class ShurikenScript : MonoBehaviour
 {
@@ -17,10 +19,16 @@ public class ShurikenScript : MonoBehaviour
         rb.linearVelocity = new Vector2(direction.x, direction.y).normalized * force; 
         float rot = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0, 0, rot + 90);
+        StartCoroutine(SelfDestruct());
+    }
+   
 
+    IEnumerator SelfDestruct()
+    {
+        yield return new WaitForSeconds(5f);
+        Destroy(gameObject);
     }
 
-    
     void Update()
     {
      
