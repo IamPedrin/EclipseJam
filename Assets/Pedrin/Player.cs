@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
 
     [Header("WallMovement")]
     public float wallSlideSpeed = 2;
-    bool isWallSliding;
+    [SerializeField] bool isWallSliding;
 
     bool isWallJumping;
     float wallJumpDirection;
