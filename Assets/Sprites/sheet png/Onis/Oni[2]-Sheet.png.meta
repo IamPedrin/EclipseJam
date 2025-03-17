@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Oni[2]-Sheet_0: -5900473687271504972
+      Oni[2]-Sheet_1: 7139056581571953264
+      Oni[2]-Sheet_2: -5567303307393306852
+      Oni[2]-Sheet_3: -2294521476688986615
+      Oni[2]-Sheet_4: -1915897602451877682
+      Oni[2]-Sheet_5: -5083086227188472
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

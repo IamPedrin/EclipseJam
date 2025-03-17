@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: f2ca6a7740f1f8040a8e0a0754764d65
+guid: c8a6c8782aa89344f87be89ce6290ec3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5445660419345229597
-    second: Fire skill-Sheet_0
+      213: 8604232789126334167
+    second: ButtonsShinobi_0
   - first:
-      213: -4288430187775297491
-    second: Fire skill-Sheet_1
+      213: 783218858127587330
+    second: ButtonsShinobi_1
   - first:
-      213: 6121100011412263574
-    second: Fire skill-Sheet_2
+      213: -5735714271054177157
+    second: ButtonsShinobi_2
   - first:
-      213: -3371764624131618901
-    second: Fire skill-Sheet_3
+      213: 3043657723243632328
+    second: ButtonsShinobi_3
   - first:
-      213: -5302576689044801696
-    second: Fire skill-Sheet_4
-  - first:
-      213: 7388380469475769699
-    second: Fire skill-Sheet_5
+      213: 4983417028771485333
+    second: ButtonsShinobi_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,13 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire skill-Sheet_0
+      name: ButtonsShinobi_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 14
-        width: 18
-        height: 12
+        x: 79
+        y: 127
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +127,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e8d58173b02d64b0800000000000000
-      internalID: -5445660419345229597
+      spriteID: 7d6c4a07220686770800000000000000
+      internalID: 8604232789126334167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire skill-Sheet_1
+      name: ButtonsShinobi_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 13
-        width: 18
-        height: 13
+        x: 127
+        y: 127
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d28779d177f6c74c0800000000000000
-      internalID: -4288430187775297491
+      spriteID: 208f41cd66d8eda00800000000000000
+      internalID: 783218858127587330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire skill-Sheet_2
+      name: ButtonsShinobi_2
       rect:
         serializedVersion: 2
-        x: 41
-        y: 14
-        width: 19
-        height: 12
+        x: 127
+        y: 95
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6921ed6870482f450800000000000000
-      internalID: 6121100011412263574
+      spriteID: b7c5da47246a660b0800000000000000
+      internalID: -5735714271054177157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire skill-Sheet_3
+      name: ButtonsShinobi_3
       rect:
         serializedVersion: 2
-        x: 62
-        y: 13
-        width: 18
-        height: 12
+        x: 79
+        y: 63
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba7086050f51531d0800000000000000
-      internalID: -3371764624131618901
+      spriteID: 8c69fc3c29e3d3a20800000000000000
+      internalID: 3043657723243632328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire skill-Sheet_4
+      name: ButtonsShinobi_4
       rect:
         serializedVersion: 2
-        x: 81
-        y: 13
-        width: 18
-        height: 12
+        x: 127
+        y: 63
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,30 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 067b73778967966b0800000000000000
-      internalID: -5302576689044801696
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire skill-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 14
-        width: 18
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 36d798444ecc88660800000000000000
-      internalID: 7388380469475769699
+      spriteID: 5969e876267a82540800000000000000
+      internalID: 4983417028771485333
       vertices: []
       indices: 
       edges: []
@@ -260,12 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fire skill-Sheet_0: -5445660419345229597
-      Fire skill-Sheet_1: -4288430187775297491
-      Fire skill-Sheet_2: 6121100011412263574
-      Fire skill-Sheet_3: -3371764624131618901
-      Fire skill-Sheet_4: -5302576689044801696
-      Fire skill-Sheet_5: 7388380469475769699
+      ButtonsShinobi_0: 8604232789126334167
+      ButtonsShinobi_1: 783218858127587330
+      ButtonsShinobi_2: -5735714271054177157
+      ButtonsShinobi_3: 3043657723243632328
+      ButtonsShinobi_4: 4983417028771485333
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
