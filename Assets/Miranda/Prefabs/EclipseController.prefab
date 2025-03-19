@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1933633241491715156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3972934427864418701}
+  - component: {fileID: 4543166103246512289}
+  m_Layer: 0
+  m_Name: EclipseController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3972934427864418701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933633241491715156}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.18418977, y: -2.3132663, z: 103.994095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4543166103246512289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933633241491715156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ac96149d7a4544abace2c3eac7769e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eclipseRenderer: {fileID: 0}
+  eclipsePhases:
+  - {fileID: -1766372281448735750, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: 1079589447191550784, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: 8043842955500636942, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: -4188138378893008233, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: -1990853385192684781, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: -1417381461801147607, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: 8141412753645957429, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: -4771360210750265635, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  - {fileID: -6939203342278734387, guid: acc14d357c320cc429f4a186cab71eaa, type: 3}
+  darknessOverlay: {fileID: 0}
