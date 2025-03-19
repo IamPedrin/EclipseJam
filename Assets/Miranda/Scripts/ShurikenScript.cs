@@ -37,6 +37,7 @@ public class ShurikenScript : MonoBehaviour
     {
         if (collider.CompareTag("Enemy"))
         {
+            EclipseController.Instance.OnEnemyKilled();
             Destroy(collider.gameObject);
             Destroy(gameObject);
         }

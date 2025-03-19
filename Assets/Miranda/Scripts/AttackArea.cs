@@ -7,8 +7,8 @@ public class AreaDeAtaque : MonoBehaviour
     {
         if (collider.CompareTag("Enemy")) 
         {
+            EclipseController.Instance.OnEnemyKilled();
             Destroy(collider.gameObject);
-            
         }
     }
 

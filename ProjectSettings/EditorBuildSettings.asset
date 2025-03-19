@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 16916135da84bbc47965d429e6540375
   - enabled: 1
+    path: Assets/Canellas/Level.unity
+    guid: 1c10dd0d996bcc743af700ac7af3fdc1
+  - enabled: 0
     path: Assets/Pedrin/PedrinScene.unity
     guid: 51b03e2d31739c34aa27bf55a086b416
   m_configObjects:

@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d155f7b3d7069614ea7cf3a2e321d740, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: PedrinScene
+  sceneName: Level
   optionsPanel: {fileID: 478633525}
   mainMenuPanel: {fileID: 1808877442}
   creditsPanel: {fileID: 872604278}

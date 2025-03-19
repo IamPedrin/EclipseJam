@@ -20,7 +20,7 @@ public class Player : MonoBehaviour
     public Transform groundCheckPos;
     public Vector2 groundCheckSize = new Vector2(0.5f, 0.05f);
     public LayerMask groundLayer;
-    [SerializeField]bool isGrounded;
+    [SerializeField] bool isGrounded;
 
     [Header("Gravity")]
     public float baseGravity = 2f;
@@ -54,14 +54,17 @@ public class Player : MonoBehaviour
         ProcessWallSlide();
         ProcessWallJump();
 
-        animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
-        animator.SetFloat("yVelocity", (rb.linearVelocity.y));
-
         if (!isWallJumping)
         {
             rb.linearVelocity = new Vector2(horizontalMovement * moveSpeed, rb.linearVelocity.y);
             Flip();
         }
+
+        animator.SetFloat("xVelocity", Mathf.Abs(rb.linearVelocity.x));
+        animator.SetFloat("yVelocity", (rb.linearVelocity.y));
+
+        // animator.SetFloat("magnitude", rb.linearVelocity.magnitude);
+        // animator.SetBool("isWallSliding", isWallSliding);
     }
 
     private void Gravity()
@@ -104,6 +107,7 @@ public class Player : MonoBehaviour
             isWallJumping = true;
             rb.linearVelocity = new Vector2(wallJumpDirection * wallJumpPower.x, wallJumpPower.y);
             wallJumpTimer = 0;
+            //animator.SetTrigger("wallJump");
 
             if (transform.localScale.x != wallJumpDirection)
             {

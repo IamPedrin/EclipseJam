@@ -3,10 +3,11 @@ using UnityEngine.UI;
 
 public class EclipseController : MonoBehaviour
 {
+    public static EclipseController Instance;
     public SpriteRenderer eclipseRenderer; // Para exibir o eclipse no fundo
     public Sprite[] eclipsePhases; // Imagens do eclipse
     public Image darknessOverlay; // UI para escurecer a tela (deve estar em um Canvas)
-    
+
     private int currentPhase = 0;
     private float eclipseProgress = 0f;
     public float maxEclipseTime = 60f; // Tempo total até o eclipse completo
@@ -14,6 +15,18 @@ public class EclipseController : MonoBehaviour
 
     private float remainingTime;
 
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
     void Start()
     {
         remainingTime = maxEclipseTime;
