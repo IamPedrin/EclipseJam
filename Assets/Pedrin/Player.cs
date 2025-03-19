@@ -132,10 +132,10 @@ public class Player : MonoBehaviour
 
     private void ProcessWallSlide()
     {
-        if (!isGrounded && WallCheck() && horizontalMovement != 0)
+        if (!isGrounded & WallCheck() & horizontalMovement != 0)
         {
-            animator.SetBool("isWallhanging", true);
             isWallSliding = true;
+            animator.SetBool("isWallhanging", true);
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, Mathf.Max(rb.linearVelocity.y, -wallSlideSpeed));
         }
         else
