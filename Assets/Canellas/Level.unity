@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: maxEclipseTime
-      value: 90
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: darknessOverlay
@@ -217,7 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cbdace8b1dbf14645ac51874fd1316ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 6701071556641111508, guid: def48fdfa5c16cb448330b45ff0e1643, type: 3}
+  enemy: {fileID: 7055762221470650549, guid: 278d0ea69c9c7a748b9631b6c8845d8b, type: 3}
   minSpawnTime: 5
   maxSpawnTime: 10
 --- !u!4 &380946905
