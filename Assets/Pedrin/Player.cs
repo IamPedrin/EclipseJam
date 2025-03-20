@@ -161,7 +161,7 @@ public class Player : MonoBehaviour
         }
         else if (wallJumpTimer > 0f)
         {
-            wallJumpTime -= Time.deltaTime;
+            wallJumpTimer -= Time.deltaTime;
         }
     }
 
