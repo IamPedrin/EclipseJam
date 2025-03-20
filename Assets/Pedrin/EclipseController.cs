@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class EclipseController : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class EclipseController : MonoBehaviour
     public float delayPerKill = 3f; // Quanto tempo cada inimigo morto atrasa o eclipse
 
     private float remainingTime;
+
+    public TextMeshProUGUI tempoSobrevivenciaTexto;
+    private float tempoSobrevivencia = 0f;
+    private bool contando = true;
 
     private void Awake()
     {
@@ -45,6 +50,12 @@ public class EclipseController : MonoBehaviour
         {
             GameOver();
         }
+
+        if(contando)
+        {
+            tempoSobrevivencia += Time.deltaTime;
+            AtualizaTexto();
+        }
     }
 
     public void OnEnemyKilled()
@@ -66,8 +77,16 @@ public class EclipseController : MonoBehaviour
         darknessOverlay.color = new Color(0, 0, 0, eclipseProgress);
     }
 
+    void AtualizaTexto()
+    {
+        int minutos = Mathf.FloorToInt(tempoSobrevivencia / 60);
+        int segundos = Mathf.FloorToInt(tempoSobrevivencia % 60);
+        tempoSobrevivenciaTexto.text = $"{minutos:00}:{segundos:00}";
+    }
+
     void GameOver()
     {
+        contando = false;
         // Eclipse total aconteceu - aqui você pode encerrar o jogo
         Debug.Log("O Eclipse chegou! Fim do jogo.");
     }
