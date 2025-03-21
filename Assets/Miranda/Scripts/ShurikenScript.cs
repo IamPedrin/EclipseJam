@@ -38,6 +38,7 @@ public class ShurikenScript : MonoBehaviour
         if (collider.CompareTag("Enemy"))
         {
             EclipseController.Instance.OnEnemyKilled();
+            AudioManager.Instance.PlaySFX("Hit");
             Destroy(collider.gameObject);
             Destroy(gameObject);
         }

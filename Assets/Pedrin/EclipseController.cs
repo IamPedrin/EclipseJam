@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class EclipseController : MonoBehaviour
 {
@@ -25,7 +26,6 @@ public class EclipseController : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -51,7 +51,7 @@ public class EclipseController : MonoBehaviour
             GameOver();
         }
 
-        if(contando)
+        if (contando)
         {
             tempoSobrevivencia += Time.deltaTime;
             AtualizaTexto();
@@ -87,7 +87,9 @@ public class EclipseController : MonoBehaviour
     void GameOver()
     {
         contando = false;
-        // Eclipse total aconteceu - aqui você pode encerrar o jogo
-        Debug.Log("O Eclipse chegou! Fim do jogo.");
+        PlayerPrefs.SetFloat("TempoSobrevivencia", tempoSobrevivencia);
+        PlayerPrefs.Save();
+        SceneManager.LoadScene("Final");
+
     }
 }

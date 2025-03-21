@@ -6,14 +6,14 @@ public class PlayerAttack : MonoBehaviour
 {
     private GameObject attackAreaVertical = default;
     private GameObject attackArea = default;
-    
+
     Animator animator;
     private bool attacking = false;
-   
+
 
     private float timeToAttack = 0.25f;
-    private float timer = 0f;    
-  
+    private float timer = 0f;
+
     void Start()
     {
         attackArea = transform.GetChild(0).gameObject;
@@ -37,9 +37,9 @@ public class PlayerAttack : MonoBehaviour
             {
                 timer = 0;
                 attacking = false;
-
-                 attackArea.SetActive(attacking);
-                 attackAreaVertical.SetActive(attacking);
+                AudioManager.Instance.PlaySFX("Sword");
+                attackArea.SetActive(attacking);
+                attackAreaVertical.SetActive(attacking);
 
             }
         }
@@ -48,10 +48,10 @@ public class PlayerAttack : MonoBehaviour
             animator.SetBool("isVerticalAttacking", false);
             animator.SetBool("isHorizontalAttacking", false);
         }
-        
+
     }
 
-    private void Attack() 
+    private void Attack()
     {
         animator.SetBool("isHorizontalAttacking", true);
         attacking = true;

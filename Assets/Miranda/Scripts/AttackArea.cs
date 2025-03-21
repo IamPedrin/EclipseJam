@@ -7,6 +7,7 @@ public class AreaDeAtaque : MonoBehaviour
     {
         if (collider.CompareTag("Enemy")) 
         {
+            AudioManager.Instance.PlaySFX("Hit");
             EclipseController.Instance.OnEnemyKilled();
             Destroy(collider.gameObject);
         }

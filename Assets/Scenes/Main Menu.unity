@@ -968,7 +968,17 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: ee44516a381851e4f9b09650360216df, type: 3}
   - soundName: Tenso2
     clip: {fileID: 8300000, guid: 2fce928d64f8f524c808300fce3b6887, type: 3}
-  sfxSounds: []
+  - soundName: Fim
+    clip: {fileID: 8300000, guid: dfa4cfe934db0f246b5061a5b4e253cf, type: 3}
+  sfxSounds:
+  - soundName: Sword
+    clip: {fileID: 8300000, guid: ace8206726825694ab0f18e4f7604057, type: 3}
+  - soundName: Pulo
+    clip: {fileID: 8300000, guid: 8d644ed5d773a764baf157adf57ad16b, type: 3}
+  - soundName: Passos
+    clip: {fileID: 8300000, guid: 002cc0f1dbb4bbd4aa1881eb6054b099, type: 3}
+  - soundName: Hit
+    clip: {fileID: 8300000, guid: cb8f592472c12544a95a0b2321e62e68, type: 3}
   musicSource: {fileID: 700405040}
   sfxSource: {fileID: 127691751}
 --- !u!4 &193473297

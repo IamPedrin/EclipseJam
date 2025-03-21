@@ -173,7 +173,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: maxEclipseTime
-      value: 90
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: darknessOverlay

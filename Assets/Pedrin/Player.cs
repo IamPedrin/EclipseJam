@@ -94,6 +94,7 @@ public class Player : MonoBehaviour
             {
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
                 jumpsRemaining--;
+                AudioManager.Instance.PlaySFX("Pulo");
             }
             else if (context.canceled)
             {
@@ -107,7 +108,7 @@ public class Player : MonoBehaviour
             isWallJumping = true;
             rb.linearVelocity = new Vector2(wallJumpDirection * wallJumpPower.x, wallJumpPower.y);
             wallJumpTimer = 0;
-            //animator.SetTrigger("wallJump");
+            AudioManager.Instance.PlaySFX("Pulo");
 
             if (transform.localScale.x != wallJumpDirection)
             {

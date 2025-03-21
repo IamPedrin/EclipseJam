@@ -20,6 +20,9 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        musicSource.volume = PlayerPrefs.GetFloat("MusicVolume", 0.75f);
+        sfxSource.volume = PlayerPrefs.GetFloat("SFXVolume", 0.75f);
     }
 
     public void PlayMusic(string name)
@@ -86,6 +89,8 @@ public class AudioManager : MonoBehaviour
     public void MusicVolume(float volume)
     {
         musicSource.volume = volume;
+        PlayerPrefs.SetFloat("MusicVolume", volume);
+        PlayerPrefs.Save();
     }
 
     public float GetMusicVolume()
@@ -96,6 +101,8 @@ public class AudioManager : MonoBehaviour
     public void SFXVolume(float volume)
     {
         sfxSource.volume = volume;
+        PlayerPrefs.SetFloat("SFXVolume", volume);
+        PlayerPrefs.Save();
     }
 
     public AudioSource GetMusicAudioSource(string name)
