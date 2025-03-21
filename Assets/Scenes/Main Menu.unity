@@ -1133,6 +1133,8 @@ MonoBehaviour:
   optionsPanel: {fileID: 478633525}
   mainMenuPanel: {fileID: 1808877442}
   creditsPanel: {fileID: 872604278}
+  musicVolumeSlider: {fileID: 1286844184}
+  sfxVolumeSlider: {fileID: 215714499}
 --- !u!4 &434214644
 Transform:
   m_ObjectHideFlags: 0

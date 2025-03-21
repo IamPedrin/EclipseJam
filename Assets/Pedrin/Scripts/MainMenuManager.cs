@@ -2,6 +2,7 @@ using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuManager : MonoBehaviour
 {
@@ -10,9 +11,20 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] private GameObject mainMenuPanel;
     [SerializeField] private GameObject creditsPanel;
 
+    [SerializeField] private Slider musicVolumeSlider;
+    [SerializeField] private Slider sfxVolumeSlider;
+
+
     void Start()
     {
         AudioManager.Instance.Func("Inicial", "Principal");
+
+        float savedMusicVolume = PlayerPrefs.GetFloat("musicVolume", 0.75f);
+        float savedSfxVolume = PlayerPrefs.GetFloat("sfxVolume", 0.75f);
+        musicVolumeSlider.value = savedMusicVolume;
+        musicVolumeSlider.onValueChanged.AddListener(SetMusicVolume);
+        sfxVolumeSlider.value = savedSfxVolume;
+        sfxVolumeSlider.onValueChanged.AddListener(SetSFXVolume);
     }
 
     public void Play()
@@ -48,5 +60,15 @@ public class MainMenuManager : MonoBehaviour
     {
         Debug.Log("Quiting...");
         Application.Quit();
+    }
+
+    public void SetMusicVolume(float volume)
+    {
+        AudioManager.Instance.MusicVolume(volume);
+    }
+
+    public void SetSFXVolume(float volume)
+    {
+        AudioManager.Instance.SFXVolume(volume);
     }
 }

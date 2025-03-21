@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 16916135da84bbc47965d429e6540375
   - enabled: 1
-    path: Assets/Canellas/Level.unity
+    path: Assets/Scenes/Level.unity
     guid: 1c10dd0d996bcc743af700ac7af3fdc1
   - enabled: 1
     path: Assets/Scenes/Final.unity

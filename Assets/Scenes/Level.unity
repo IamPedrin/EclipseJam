@@ -222,8 +222,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemies:
-  - {fileID: 7055762221470650549, guid: 278d0ea69c9c7a748b9631b6c8845d8b, type: 3}
   - {fileID: 6701071556641111508, guid: def48fdfa5c16cb448330b45ff0e1643, type: 3}
+  - {fileID: 7055762221470650549, guid: 278d0ea69c9c7a748b9631b6c8845d8b, type: 3}
   spawnPoints:
   - {fileID: 1556803534}
   - {fileID: 877369031}
@@ -1879,7 +1879,7 @@ GameObject:
   - component: {fileID: 2027927743}
   m_Layer: 3
   m_Name: Platforms
-  m_TagString: Untagged
+  m_TagString: Platforms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
