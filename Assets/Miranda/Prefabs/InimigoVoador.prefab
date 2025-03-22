@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 619848022194496767}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BulletParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 52211238525722530}
   - component: {fileID: 1970401664403615937}
   - component: {fileID: 7480652850934970103}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: InimigoVoador
   m_TagString: Enemy
   m_Icon: {fileID: 0}

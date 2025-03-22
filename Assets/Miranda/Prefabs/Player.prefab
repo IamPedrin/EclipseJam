@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3208786055947852010}
   - component: {fileID: 8341255153557189630}
   - component: {fileID: 7213902968871718983}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -378,7 +378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3141707232873201357}
   - component: {fileID: 2546224596493423666}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RotatePoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -521,7 +521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2074319279471773653}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: WallCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -553,7 +553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198635796605472154}
   - component: {fileID: 1554296329479612038}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Shuriken Transform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7399487720521903875}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}

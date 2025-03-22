@@ -172,8 +172,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
+      propertyPath: sprite
+      value: 
+      objectReference: {fileID: 825958343}
+    - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: maxEclipseTime
-      value: 30
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: darknessOverlay
@@ -564,6 +568,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
+--- !u!212 &825958343 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1030893951895994770, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
+  m_PrefabInstance: {fileID: 825958342}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &840624004
 GameObject:
   m_ObjectHideFlags: 0

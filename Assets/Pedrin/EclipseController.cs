@@ -2,24 +2,29 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using System;
+using System.Collections;
 
 public class EclipseController : MonoBehaviour
 {
     public static EclipseController Instance;
     public SpriteRenderer eclipseRenderer; // Para exibir o eclipse no fundo
     public Sprite[] eclipsePhases; // Imagens do eclipse
-    public Image darknessOverlay; // UI para escurecer a tela (deve estar em um Canvas)
+    public Image darknessOverlay; // Imagem para escurecer a tela
 
     private int currentPhase = 0;
     private float eclipseProgress = 0f;
     public float maxEclipseTime = 60f; // Tempo total até o eclipse completo
     public float delayPerKill = 3f; // Quanto tempo cada inimigo morto atrasa o eclipse
+    public float advancePerHit = 3f; //Quanto tempo avança o eclipse em cada hit inimido
 
     private float remainingTime;
 
     public TextMeshProUGUI tempoSobrevivenciaTexto;
     private float tempoSobrevivencia = 0f;
     private bool contando = true;
+
+    public SpriteRenderer sprite;
 
     private void Awake()
     {
@@ -64,6 +69,13 @@ public class EclipseController : MonoBehaviour
         remainingTime = Mathf.Min(remainingTime, maxEclipseTime);
     }
 
+    public void OnEnemyHit()
+    {
+        remainingTime -= advancePerHit;
+        remainingTime = Mathf.Min(remainingTime, maxEclipseTime);
+        StartCoroutine(flashRed());
+    }
+
     void UpdateEclipseVisual()
     {
         int phaseIndex = Mathf.FloorToInt(eclipseProgress * (eclipsePhases.Length - 1));
@@ -73,7 +85,6 @@ public class EclipseController : MonoBehaviour
             eclipseRenderer.sprite = eclipsePhases[currentPhase];
         }
 
-        // Atualiza a opacidade da tela escurecendo aos poucos
         darknessOverlay.color = new Color(0, 0, 0, eclipseProgress);
     }
 
@@ -89,7 +100,17 @@ public class EclipseController : MonoBehaviour
         contando = false;
         PlayerPrefs.SetFloat("TempoSobrevivencia", tempoSobrevivencia);
         PlayerPrefs.Save();
+        AudioManager.Instance.PlayMusic("Fim");
         SceneManager.LoadScene("Final");
 
+    }
+
+    private IEnumerator flashRed()
+    {
+        sprite.color = Color.red;
+        Physics2D.IgnoreLayerCollision(7, 8, true);
+        yield return new WaitForSeconds(0.8f);
+        sprite.color = Color.white;
+        Physics2D.IgnoreLayerCollision(7, 8, false);
     }
 }

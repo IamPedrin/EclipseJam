@@ -50,6 +50,7 @@ public class EnemyFollowPlayerMelee : MonoBehaviour
 
     private void Attack()
     {
+        EclipseController.Instance.OnEnemyHit();
         Debug.Log("Ataque Inimigo");
     }
 

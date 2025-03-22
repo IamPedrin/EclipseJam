@@ -10,9 +10,23 @@ public class Bullet : MonoBehaviour
     {
         bulletRB = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
-        Vector2 moveDir = (target.transform.position - transform.position).normalized * speed;
-        bulletRB.linearVelocity = new Vector2(moveDir.x, moveDir.y);
-        Destroy(this.gameObject, 2);
+
+        if (target != null)
+        {
+            Vector2 moveDir = (target.transform.position - transform.position).normalized * speed;
+            bulletRB.linearVelocity = moveDir;
+        }
+
+        Destroy(gameObject, 2);
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("HIT");
+            EclipseController.Instance.OnEnemyHit();
+            Destroy(gameObject);
+        }
+    }
 }
