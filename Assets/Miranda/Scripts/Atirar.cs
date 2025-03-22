@@ -6,18 +6,19 @@ public class Shuriken : MonoBehaviour
     private Vector3 mousePos;
     public GameObject bullet;
     public Transform bulletTransform;
-    public bool canFire; //Se o jogador pode atirar ou não
-    private float timer;
-    public float timeBetweenFiring = 5f;
+    public bool canFire; //Se o jogador pode atirar ou nï¿½o
+    private float timer = 0;
+    public float timeBetweenFiring = 10f;
     void Start()
     {
         mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        canFire = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-       mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+        mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
 
         Vector3 rotation = mousePos - transform.position;
 
@@ -25,27 +26,21 @@ public class Shuriken : MonoBehaviour
 
         transform.rotation = Quaternion.Euler(0, 0, rotZ);
 
-        if (!canFire){
-
-            timer += Time.deltaTime;
-
-            if(timer > timeBetweenFiring)
-            {
-                canFire = true;
-                timer = 0;  
-
-
-            }
-
-        }
-
-        if(Input.GetMouseButton(1) && canFire)
+        if (!canFire)
         {
-            canFire = false;// não permite o jogador atirar imediatamente
-
-            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
-
+            timer += Time.deltaTime;
         }
 
+        if (canFire && Input.GetMouseButton(1))
+        {
+            canFire = false;
+            timer = 0;
+            Instantiate(bullet, bulletTransform.position, Quaternion.identity);
+        }
+
+        if (timer >= timeBetweenFiring)
+        {
+            canFire = true;
+        }
     }
 }

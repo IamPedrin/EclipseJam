@@ -176,6 +176,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 825958343}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
+      propertyPath: delayPerKill
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: maxEclipseTime
       value: 60
       objectReference: {fileID: 0}
@@ -187,6 +191,10 @@ PrefabInstance:
       propertyPath: eclipseRenderer
       value: 
       objectReference: {fileID: 1750075251}
+    - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
+      propertyPath: eclipseDecayRate
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 4543166103246512289, guid: 123bd6f5ef8f47d4f897dffea2d2b511, type: 3}
       propertyPath: tempoSobrevivenciaTexto
       value: 
@@ -522,6 +530,18 @@ PrefabInstance:
     - target: {fileID: 302979098173045937, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2546224596493423666, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
+      propertyPath: timeBetweenFiring
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208786055947852010, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
+      propertyPath: jumpPower
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208786055947852010, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
+      propertyPath: wallSlideSpeed
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 7674152639278175631, guid: 9a272e038e583394abfac9f94b9d2218, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1435,8 +1455,8 @@ Transform:
   m_GameObject: {fileID: 1750075249}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -10.92, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 0}
+  m_LocalPosition: {x: -0.0491, y: -10.92, z: 0}
+  m_LocalScale: {x: 3.8778942, y: 4, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 642284529}

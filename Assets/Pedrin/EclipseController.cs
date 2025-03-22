@@ -24,6 +24,7 @@ public class EclipseController : MonoBehaviour
     private float tempoSobrevivencia = 0f;
     private bool contando = true;
 
+    public float eclipseDecayRate = 0.5f;
     public SpriteRenderer sprite;
 
     private void Awake()
@@ -47,7 +48,16 @@ public class EclipseController : MonoBehaviour
     {
         if (remainingTime > 0)
         {
-            remainingTime -= Time.deltaTime;
+            if (NoEnemiesLeft())
+            {
+                remainingTime += eclipseDecayRate * Time.deltaTime;
+                remainingTime = Mathf.Min(remainingTime, maxEclipseTime);
+            }
+            else
+            {
+                remainingTime -= Time.deltaTime;
+            }
+
             eclipseProgress = 1 - (remainingTime / maxEclipseTime);
             UpdateEclipseVisual();
         }
@@ -62,6 +72,7 @@ public class EclipseController : MonoBehaviour
             AtualizaTexto();
         }
     }
+
 
     public void OnEnemyKilled()
     {
@@ -94,6 +105,12 @@ public class EclipseController : MonoBehaviour
         int segundos = Mathf.FloorToInt(tempoSobrevivencia % 60);
         tempoSobrevivenciaTexto.text = $"{minutos:00}:{segundos:00}";
     }
+
+    bool NoEnemiesLeft()
+    {
+        return GameObject.FindGameObjectsWithTag("Enemy").Length == 0;
+    }
+
 
     void GameOver()
     {

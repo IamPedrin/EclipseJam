@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
 
     public float initialMinSpawnTime = 5f;
     public float initialMaxSpawnTime = 10f;
-    public float difficultyIncreaseRate = 0.95f;
+    public float difficultyIncreaseRate = 0.75f;
 
     public float minSpawnTime;
     public float maxSpawnTime;
